@@ -1,0 +1,103 @@
+.prSidebarHeader{
+	height:50px;
+	background-color: #4A90E2;
+}
+
+.prSidebarContent{
+	padding:20px;
+}
+
+.prFooter{
+	background-color: #fff;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	padding:20px;
+	color:#555;
+	text-align: center;
+}
+
+.prSidebarFullname {
+	color:#4A90E2;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding:10px 0 0;
+	display: block;
+	text-align: center;
+}
+
+.prSidebarSubtitle {
+	color:#999;
+	font-size: 0.9em;
+	font-weight: normal;
+	padding:0 0 20px;
+	display: block;
+	text-align: center;
+}
+
+.prSidebarAvatar{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.prSidebarMenu {
+	text-align: center;
+}
+
+.prSidebarMenu ul {
+	list-style:none;
+	margin:10px 0 0 40px;
+	padding:0;
+	display: block;
+}
+
+.prSidebarMenu ul > li {
+	//background-color:#fff;
+	transition: all 0.1s ease-out 0s;
+	text-align: left;
+}
+
+.prSidebarMenu ul > li:hover {
+	//background-color:#4A90E2;
+	transition: all 0.1s ease-out 0s;
+}
+
+.prSidebarMenu ul > li > a > span {
+	margin-left:10px;
+}
+
+.prSidebarMenu ul > li > a{
+	padding:10px 0;
+	color:#555;
+	text-decoration: none;
+	display: block;
+	font-size:1.1rem;
+	transition: all 0.1s ease-out 0s;
+	padding-left:0
+}
+
+.prSidebarMenu ul > li > a:hover{
+	transition: all 0.1s ease-out 0s;
+	color:#4A90E2;
+	padding-left:5px;
+}
+
+.prCopyright {
+	font-size: 0.8rem; 
+}
+
+.prSocials {
+	margin-bottom:5px;
+}
+
+.prSocials a {
+	margin:0 10px;
+	font-size: 1.1rem;
+	color:#555;
+	transition: all 0.1s ease-out 0s;
+}
+
+.prSocials a:hover{
+	color:#4A90E2;
+	transition: all 0.1s ease-out 0s;
+}

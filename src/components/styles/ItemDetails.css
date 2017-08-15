@@ -1,0 +1,27 @@
+.prBtnBack {
+	padding:0 20px 20px;
+}
+
+.prBtnBack a {
+	color:#555;
+	text-decoration: none;
+	transition: all 0.1s ease-out 0s;
+}
+
+.prBtnBack a:hover {
+	color:#4A90E2;
+	transition: all 0.1s ease-out 0s;
+}
+
+.prDetailsTitle {
+	margin:20px 0;
+}
+
+.prDetailsTitle h2, .prDetailsDescription h4, .prDetailsLinks h4 {
+	color: #4A90E2;
+}
+
+.prDetailsDescription{
+	margin: 40px 0;
+	color:#555;
+}
